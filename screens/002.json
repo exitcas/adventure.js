@@ -1,0 +1,11 @@
+{
+  "header": "> Go outside your room.",
+  "img": {
+    "src": "./imgs/001.jpg"
+  },
+  "body": "Nop.",
+  "options": [
+    ["002", "Go outside."]
+    ["001", "Ok..."]
+  ]
+}

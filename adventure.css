@@ -1,0 +1,38 @@
+#adventure {
+  background: #aaaaaa;
+  padding: 3px;
+}
+
+#adventure a {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#adventure .header {
+  font-family: "Trocchi", serif;
+}
+#adventure .body,
+#adventure .nav {
+  background: #d4d4d4;
+}
+#adventure .img {
+  color: transparent;
+  width: 50%;
+  aspect-ratio: 6 / 5;
+}
+#adventure .nav {
+  text-align: initial;
+  list-style: none;
+}
+#adventure .nav li {
+  text-decoration: underline;
+  cursor: point;
+}
+#adventure .nav li::marker {
+  content: "> ";
+}
+#adventure .controls {
+  font-size: normal;
+  font-family: monospace;
+}
